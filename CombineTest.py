@@ -4,7 +4,7 @@ import os
 import datetime
 
 #Checks the current date and creates date object to be used and added in new workbook filename.
-x = datetime.datetime.now()
+#x = datetime.datetime.now()
 
 
 #ABOUT: Script to copy multiple sheets from multiple workbooks, into a new combined workbook to make Find easier for business client.
@@ -194,7 +194,7 @@ new_workbook.save ('Combined4Search.xlsx')
     #x.strftime("%x")
     #new_workbook = new_workbook+datetime
 
-file = open('Combined4Search.xlsx', 'r')
+#file = open('Combined4Search.xlsx', 'r')
 #print(file.read())
 
 
